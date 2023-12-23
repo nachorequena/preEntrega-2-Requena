@@ -1,0 +1,30 @@
+
+*{
+    text-align: center;
+}
+
+.encabezado{
+    background-color: yellow;
+}
+
+.centrarNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.filtro{
+    display: none;
+}
+
+#sectionContenedor{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+img{
+    max-height: 150px;
+    object-fit: contain;
+}
