@@ -10,14 +10,14 @@ class productos {
 
 }
 
-const PROD1 = new productos("coca cola", 1000, "../img/coca.png", "bebidas");
-const PROD2 = new productos("seven up", 1000, "../img/seven.png", "bebidas");
-const PROD3 = new productos("hamburguesa", 1800, "../img/hamburguesa.png", "comidas" );
-const PROD4 = new productos("pizza", 2000, "../img/pizza.png", "comidas");
-const PROD5 = new productos("pancho", 1500, "../img/pancho.png", "comidas");
-const PROD6 = new productos("papas fritas", 1200, "../img/papas.avif", "comidas");
-const PROD7 = new productos("sandwich", 1200, "../img/sandwich.png", "comidas");
-const PROD8 = new productos("fanta", 900, "../img/fanta.png", "bebidas");
+const PROD1 = new productos("coca cola", 1000, "coca.png", "bebidas");
+const PROD2 = new productos("seven up", 1000, "seven.png", "bebidas");
+const PROD3 = new productos("hamburguesa", 1800, "hamburguesa.png", "comidas" );
+const PROD4 = new productos("pizza", 2000, "pizza.png", "comidas");
+const PROD5 = new productos("pancho", 1500, "pancho.png", "comidas");
+const PROD6 = new productos("papas fritas", 1200, "papas.avif", "comidas");
+const PROD7 = new productos("sandwich", 1200, "sandwich.png", "comidas");
+const PROD8 = new productos("fanta", 900, "fanta.png", "bebidas");
 
 
 //CARDS DINAMICAS
